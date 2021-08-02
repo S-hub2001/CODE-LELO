@@ -10,9 +10,7 @@ public class array {
             a[i] = sc.nextInt();
         }
 
-        // for (int i = 0; i < a.length; i++) {
-        // System.out.println(a[i]);
-        // }
+     
 
         // /traversing the array with for-each loop
         for (int i : a) {
