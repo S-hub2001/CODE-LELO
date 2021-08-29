@@ -5,13 +5,16 @@ interface Bicycle{
     void speedUp(int increment);
 }
 
-interface HornBicycle{
+interface HornBicycle extends Bicycle{
     int x = 45;
     void blowHornK3g();
     void blowHornmhn();
+
+
 }
 
-class AvonCycle implements Bicycle, HornBicycle{
+
+class AvonCycle implements HornBicycle{
     //public int x = 5;
     void blowHorn(){
         System.out.println("Pee Pee Poo Poo");
